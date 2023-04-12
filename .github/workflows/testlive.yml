@@ -101,7 +101,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/ViJ3XiN6Q3M)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ViJ3XiN6Q3M)
         EOL
     - name: Get 35.m3u8
       run: |
@@ -110,7 +110,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/xbNWkUyxQGM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xbNWkUyxQGM)
         EOL
     - name: Get 46.m3u8
       run: |
@@ -146,7 +146,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://m.youtube.com/watch?v=R2iMq5LKXco)
+        $(yt-dlp --print urls https://youtube.com/watch?v=R2iMq5LKXco)
         EOL
     - name: Get 52.m3u8
       run: |
@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/WHEPzbFA3hw)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WHEPzbFA3hw)
         EOL		
     - name: Get 57.m3u8
       run: |
