@@ -101,7 +101,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCiolqpxuocdomP4hPGfn_-A/live)
+        $(yt-dlp --print urls https://youtu.be/ViJ3XiN6Q3M)
         EOL
     - name: Get 35.m3u8
       run: |
@@ -110,7 +110,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCDhA7JbV2QQ-Ic9FrbeEEHA/live)
+        $(yt-dlp --print urls https://youtu.be/xbNWkUyxQGM)
         EOL
     - name: Get 46.m3u8
       run: |
@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCuzqko_GKcj9922M1gUo__w/live)
+        $(yt-dlp --print urls https://youtu.be/WHEPzbFA3hw)
         EOL		
     - name: Get 57.m3u8
       run: |
