@@ -75,7 +75,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=d8X_G4NyMbk)
-        EOL		
+        EOL
     - name: Get 24.m3u8
       run: |
         touch ./24.m3u8
@@ -165,7 +165,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=WPfPjbOLNfE)
-        EOL		
+        EOL
     - name: Get 53.m3u8
       run: |
         touch ./53.m3u8
@@ -192,7 +192,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=2mCSYvcfhtc)
-        EOL  
+        EOL
     - name: Get 56.m3u8
       run: |
         touch ./56.m3u8
@@ -201,7 +201,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=WHEPzbFA3hw)
-        EOL		
+        EOL
         # 58viva購物1台
     - name: Get 58.m3u8
       run: |
@@ -239,7 +239,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=WIhgU_mc05A)
-        EOL	
+        EOL
     - name: git add
       run: |
         git add -A
