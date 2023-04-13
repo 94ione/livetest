@@ -1,7 +1,7 @@
 name: Get YouTube Live m3u8
 on:
-  #schedule:
-  #  - cron: '0 0/3 * * *'
+  schedule:
+    - cron: '0 0/3 * * *'
 
   pull_request:
     branches:
@@ -191,7 +191,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtube.com/live/2mCSYvcfhtc)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2mCSYvcfhtc)
         EOL  
     - name: Get 56.m3u8
       run: |
@@ -200,17 +200,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCuzqko_GKcj9922M1gUo__w/live)
-        EOL		
-    - name: Get 57.m3u8
-      run: |
-        touch ./57.m3u8
-        sudo cat >./57.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=WHEPzbFA3hw)
-        EOL  
+        EOL		
         # 58viva購物1台
     - name: Get 58.m3u8
       run: |
@@ -247,7 +238,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@NTDAPTV/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WIhgU_mc05A)
         EOL	
     - name: git add
       run: |
